@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(12, 24, 24);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 140px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+}
+
+.player {
+  background-color: rgb(24, 48, 48);
+  width: 100px;
+  height: 60px;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.computer {
+  background-color: rgb(24, 48, 48);
+  color: white;
+  width: 100px;
+  height: 60px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.container2 {
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 350px;
+  color: white;
+}
+
+.move {
+  text-align: center;
+  margin-top: 20px; 
+  color: white;
+  font-size: 1.5rem; 
+}
+
+.mvlft {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem; 
+}
+
+.container3 {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.rock, .paper, .scissors {
+  border-radius: 50px;
+  background-color: rgb(24, 48, 48);
+  height: 50px;
+  width: 100px;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem; 
+}
+
+.scissors {
+  background-color: rgb(24, 47, 47);
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 2rem; 
+  text-align: center;
+  color: white;
+}
+
+.reload {
+  display: none;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: rgb(24, 47, 47);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  font-size: 1rem; 
+}
+
+.reload-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  margin-top: 2rem; 
+}
+
+
+@media screen and (max-width: 612px){  
+    .title{
+        text-align: center;
+    }
+    .score{
+        position: absolute;
+        top: 200px;
+        width: 100vw;
+    }
+    .options{
+        width: 100vw;
+    }}
